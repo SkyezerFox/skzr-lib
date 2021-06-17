@@ -55,3 +55,7 @@ Migration version1_to_version2 = new MigrationBuilder(version1, version2)
     .migrate(Field.String("age"), Field.Int("age"), (age) -> Integer.valueOf(age))
     .build();
 ```
+
+## License
+
+This module is licensed under the MIT license. See [the LICENSE file](/LICENSE) for more information.
